@@ -42,7 +42,7 @@ class Router {
 	  * @param string $basePath
 	  * @param array $matchTypes
 	  */
-	public function __construct($routes = [], $basePath = '', $matchTypes = []) : object {
+	public function __construct($routes = [], $basePath = '', $matchTypes = []) {
 		$this->addRoutes($routes);
 		$this->setBasePath($basePath);
 		$this->addMatchTypes($matchTypes);
